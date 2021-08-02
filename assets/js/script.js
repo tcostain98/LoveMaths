@@ -17,7 +17,10 @@ if (this.getAttribute("data-type") === "submit") {
 
 })  
 
-
+/**
+ * The main game 'loop', called when the script is first loaded
+ * and after the user's answer has been processed
+ */
 function runGame() {
 //creates 2 random numbers betweel 1 and 25 //
 
