@@ -19,7 +19,10 @@ if (this.getAttribute("data-type") === "submit") {
 
 
 function runGame() {
+//creates 2 random numbers betweel 1 and 25 //
 
+let num1 = Math.floor(Math.random()* 25) + 1; 
+let num2 = Math.floor(Math.random()* 25) + 1;
 }
 
 function checkAnswer() {
